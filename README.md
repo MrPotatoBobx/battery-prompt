@@ -6,6 +6,7 @@
 ![](example.png)
 
 #installation
+
 Make sure you have python3 and pip3 installed, you can install pip3  via `sudo apt install python3-pip` and install acpi via `sudo apt install acpi`
 
 then run `pip3 install PyGObject`

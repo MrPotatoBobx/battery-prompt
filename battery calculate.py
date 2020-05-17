@@ -6,6 +6,6 @@ percentnum = percent.split()
 percent4real = percentnum[3]
 promptnum = "10%"
 while percent4real != promptnum:
-    os.system("acpi -V > ~/Documents/code/battery/output.txt")
+    os.system("acpi -V > ~/battery-prompt/output.txt")
     time.sleep(30)
-os.system("python3 ~/Documents/code/battery/gui.py")
+os.system("python3 ~/battery-prompt/gui.py")

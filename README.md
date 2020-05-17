@@ -11,7 +11,7 @@ Make sure you have python3 and pip3 installed, you can install pip3  via `sudo a
 
 then run `pip3 install PyGObject`
 
-after that you can run it via `python3 ~/battery-prompt/battery\ calculate.py`
+after that you can run it via `python3 ~/battery-prompt/battery-calculate.py`
 
 I reccomend running at the start of your desktop enviorment/ window manager session here i have linked guides to run commands at start on some desktop enviorments and window managers:
 

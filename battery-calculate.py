@@ -1,5 +1,6 @@
 import os
 import time
+os.system("acpi -V > ~/battery-prompt/output.txt")
 battery = open("output.txt", "r")
 percent = battery.readline()
 percentnum = percent.split()

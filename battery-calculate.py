@@ -1,6 +1,6 @@
 import os
 import time
-os.system("acpi -V > ~/battery-prompt/output.txt")
+os.system("acpi -V > output.txt")
 battery = open("output.txt", "r")
 percent = battery.readline()
 percentnum = percent.split()
@@ -13,6 +13,6 @@ while percent4real != promptnum:
     percent4real = percentnum[3]
     promptnum = "10%"
 
-    os.system("acpi -V > ~/battery-prompt/output.txt")
+    os.system("acpi -V > output.txt")
     time.sleep(30)
-os.system("python3 ~/battery-prompt/gui.py")
+os.system("python3 gui.py")

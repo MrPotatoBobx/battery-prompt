@@ -32,4 +32,3 @@ while percentage >= 10:
     percentage = int(percent4real[:-1])
     time.sleep(10)
 os.system("python3 gui.py")
-

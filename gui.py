@@ -10,7 +10,7 @@ class MainWindow(Gtk.Window):
         self.set_border_width(30)
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
         self.add(vbox)
-        self.label = Gtk.Label("Your laptop's battery is 10%, please plug it in.")
+        self.label = Gtk.Label("Your laptop's battery is lower than 10%, please plug it in.")
         vbox.pack_start(self.label, True, True, 0)
         self.checkb = Gtk.CheckButton("Change brightness to 50%")
         self.checkb.set_active(False)

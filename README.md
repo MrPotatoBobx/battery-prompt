@@ -3,7 +3,7 @@
  there are probably better alternatives to this but if you'd like to use this feel free to do so.
 
 # preview
-![](example.png)
+![](example.png1)
 
 # installation
 

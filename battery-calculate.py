@@ -17,7 +17,7 @@ while charge != "Discharging,":
     percentage = int(percent4real[:-1])
     charge = percentnum[2]  
     os.system("acpi -V > output.txt")
-    time.sleep(10)
+    time.sleep(20)
 
 
 
@@ -30,5 +30,5 @@ while percentage >= 10:
     percentnum = percent.split()
     percent4real = percentnum[3]
     percentage = int(percent4real[:-1])
-    time.sleep(10)
+    time.sleep(30)
 os.system("python3 gui.py")
